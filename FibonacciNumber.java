@@ -2,7 +2,12 @@ package com.java.algos;
 import java.util.*;
 public class FibonacciNumber
 {
-    //method to return the n-th fibonacci sequence number
+	/**
+	 * This method will return the fibonacci sequence number for the parameter n passed in.
+	 * @author Romania Brown
+	 * @param n
+	 * @return int
+	 */
     public static int fibonacci(int n) {
 	    //if n is 1 or less then return n
 	    if (n <= 1)
@@ -12,8 +17,15 @@ public class FibonacciNumber
     }
     
     
-    //main() method 
+    /**
+     * This is the main method that will call the fibonacci method and prompt user to enter the variable 1 
+     * using scanner class. 
+     * @author Romania Brown
+     * @param args
+     * @return void
+     */
     public static void main (String args[]) {
+    	
 	    //delare one variable n
 	    int n;
 	    //create Scanner class Object
